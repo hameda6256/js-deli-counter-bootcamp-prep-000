@@ -25,3 +25,15 @@ return `The line is currently empty.`
 }
 return `The line is currently: ${strings.join(`, `)}`;
 }
+
+var lineNumber = 0
+function takeANumber (katzDeliLine){
+  lineNumber +=1;
+  katzDeliLine.push(lineNumber);
+  return `Welcome, you are number ${lineNumber}.`;
+}
+
+function nowServing2 (n){
+  n +=1;
+  return `Now serving ${n}`
+}
